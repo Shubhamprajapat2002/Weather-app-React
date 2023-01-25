@@ -1,0 +1,58 @@
+.weatherBg{
+  background: url(bg.jpg);
+ 
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.form-control{
+  margin-top: 50px;
+    margin-bottom: 14px;
+    width: 95vh;
+    border-radius: 14px;
+}
+
+.weatherResultBox{
+  justify-content: space-around;
+    display: flex;
+  margin: auto;
+  width: 800px;
+  height: 170px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 ;
+  transition: 0.4s;
+}
+.weatherIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+
+}
+.weatherCity{
+  font-size: 45px;
+  margin-top: 50px;
+}
+.weatherTemp{
+ font-size: 45px;
+ font-weight: 600;
+ margin-top: 50px;
+ 
+
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 ;
+  transition: 0.4s;
+  width: 300px;
+  /* background: #FFF; */
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  float: left;
+  margin: 10px;
+  background-color: aliceblue;
+}
